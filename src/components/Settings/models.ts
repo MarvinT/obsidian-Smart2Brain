@@ -14,6 +14,18 @@ export const OpenAIGenModels = {
 };
 
 export const OllamaGenModels = {
+    llama3: {
+        contextWindow: 8192,
+    },
+    'llama3:70b': {
+        contextWindow: 8192,
+    },
+    'llama3:instruct': {
+        contextWindow: 8192,
+    },
+    'llama3:70b-instruct': {
+        contextWindow: 8192,
+    },
     llama2: {
         contextWindow: 4096,
     },
